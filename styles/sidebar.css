@@ -1,0 +1,54 @@
+.sidebar{
+    display: flex;
+    width: 85px;
+    position: fixed;
+    top: 56px;
+    left: 0px;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+}
+
+.home-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 17px;
+}
+.home-logo{
+    height: 24px;
+}
+.home-section:hover{
+    background-color: #e0e0e0;
+    border-radius: 20px;
+}
+.shorts-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 17px;
+}
+.shorts-logo{
+    height: 24px;
+}
+
+.subscriptions-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 17px;
+}
+.subscriptions-logo{
+    height: 24px;
+}
+
+.you-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 17px;
+}
+.you-logo{
+    height: 24px;
+}
